@@ -1,0 +1,19 @@
+score_raw = raw_input("Please enter a score:\n")
+score = float(score_raw)
+try:
+    if score >= 11.0 :
+        print "A"
+    elif score >= 10.0 :
+        print "B"
+    elif score >= 9.0 :
+        print "C"
+    elif score >= 8.0 :
+        print "D"
+    elif score < 8.0 :
+        print "B"
+except:
+    print "Please enter a 10.0"
+    quit()
+    #if using else clause it must be at the end
+    #unlimited elif's 
+    #when one condition is true, program ends.
